@@ -1,9 +1,3 @@
-
-This PowerShell function will capture the screen in PowerShell and save it to an automatically numbered file. If the -OfWindow switch is used, then the current window will be captured.
-
-This works by using the built in PRINTSCREEN / CTRL-PRINTSCREEEN tricks, and it uses a bitmap encoder to save the file to disk.
-
-function Get-ScreenCapture
 {
     param(    
     [Switch]$OfWindow        
